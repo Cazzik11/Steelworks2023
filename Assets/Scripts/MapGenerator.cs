@@ -7,6 +7,7 @@ public class MapGenerator : MonoBehaviour
     public GameObject GrassTile;
     public Vector2 GrassTileSize;
     public List<GameObject> EnviroProps;
+    public List<GameObject> Obstacles;
     public float TilePopulationChance;
 
     private Vector2 _generatedDimensions;
@@ -88,5 +89,10 @@ public class MapGenerator : MonoBehaviour
                 break;
             }
         }*/
+    }
+
+    private void SpawnBlockers()
+    {
+
     }
 }
