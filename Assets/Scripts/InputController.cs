@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,8 @@ using UnityEngine;
 public class InputController : MonoBehaviour
 {
     public float MoveDuration;
+
+    public Action OnMoveEnd;
 
     private Vector2 _axisInput;
     private float _remainingMoveDuration;
@@ -26,25 +29,26 @@ public class InputController : MonoBehaviour
         }
         else
         {
+            OnMoveEnd?.Invoke();
             _axisInput = Vector2.zero;
         }
 
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
         {
             _axisInput.y = 1;
             _remainingMoveDuration = MoveDuration;
         }
-        else if (Input.GetKeyDown(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S))
         {
             _axisInput.y = -1;
             _remainingMoveDuration = MoveDuration;
         }
-        else if (Input.GetKeyDown(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A))
         {
             _axisInput.x = -1;
             _remainingMoveDuration = MoveDuration;
         }
-        else if (Input.GetKeyDown(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
             _axisInput.x = 1;
             _remainingMoveDuration = MoveDuration;

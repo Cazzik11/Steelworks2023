@@ -11,6 +11,11 @@ public class AnimationController : MonoBehaviour
 
     private void Update()
     {
+        if (Animator == null)
+        {
+            return;
+        }
+
         Animator.SetFloat(VerticalMovePropertyName, InputController.AxisInput.y);
         Animator.SetFloat(HorizontalMovePropertyName, InputController.AxisInput.x);
     }

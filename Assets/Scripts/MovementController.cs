@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class MovementController : MonoBehaviour
@@ -7,15 +8,33 @@ public class MovementController : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
     private float _currentMoveLength;
+    private Vector2 _currentPosition;
+    private bool _collision;
 
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        _currentPosition = _rigidbody.position;
+    }
+
+    private void OnEnable()
+    {
+        InputController.OnMoveEnd += EndMove;
+    }
+
+    private void OnDisable()
+    {
+        InputController.OnMoveEnd -= EndMove;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        _collision = true;
     }
 
     private void FixedUpdate()
     {
-        if (InputController.IsMoving())
+        if (InputController.IsMoving() && !_collision)
         {
             var speed = MoveLength / InputController.MoveDuration;
             var moveLengthThisFrame = speed * Time.deltaTime;
@@ -31,6 +50,19 @@ public class MovementController : MonoBehaviour
             }
 
             _rigidbody.MovePosition(_rigidbody.position + InputController.AxisInput * moveLengthThisFrame);
+        }
+    }
+
+    private void EndMove()
+    {
+        if (_collision)
+        {
+            _collision = false;
+        }
+        else
+        {
+            _currentPosition += InputController.AxisInput.normalized;
+            _rigidbody.MovePosition(_currentPosition);
         }
     }
 }
