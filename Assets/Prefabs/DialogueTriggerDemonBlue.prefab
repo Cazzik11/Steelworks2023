@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7888181124679052721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 829184467701637077}
+  - component: {fileID: 8962594831907594395}
+  m_Layer: 0
+  m_Name: DialogueTriggerDemonBlue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &829184467701637077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7888181124679052721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.1853087, y: 3.1983318, z: -0.0065497966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8962594831907594395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7888181124679052721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237e8f416cdd41f40a0f7d049614c1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages:
+  - actorId: 0
+    message: "Jam Vodnikov, demon wody! Nic co p\u0142ynie, nie jest mi obce!"
+  - actorId: 1
+    message: "Ale ja...chodz\u0119. I u\u017Cywam do tego st\xF3p! Gadaj co zrobi\u0142e\u015B
+      z Przekl\u0119t\u0105 St\xF3pk\u0105!"
+  - actorId: 0
+    message: "S\u0142uchaj, nie latam za \u017Cadnymi upad\u0142ymi boginiami. Ona
+      nie jest prawdziwym demonem! Nie chc\u0119 mie\u0107 z ni\u0105 nic wsp\xF3lnego!
+      Mo\u017Ce jakby by\u0142a Syren\u0105...Ale nie jest, wi\u0119c nic mi do tego!"
+  - actorId: 1
+    message: "Vodnikovie, musisz mi pom\xF3c! Ty zrozumiesz moj\u0105 obsesj\u0119!
+      Jeste\u015Bmy do siebie podobni, Przekl\u0119ta St\xF3pka jest dla mnie jak
+      dla ciebie Syrena!"
+  - actorId: 0
+    message: "Zamilcz! Nie por\xF3wnuj Syreny do tej edgy baby! St\xF3pki Przekl\u0119tej
+      zosta\u0142y uwi\u0119zione nie bez przyczyny...Wierz mi \u017Ce nie chcesz
+      jej pozna\u0107."
+  - actorId: 1
+    message: "Ja musz\u0119 to zrobi\u0107! Zrobi\u0119 wszystko dla mojej Bogini!!!"
+  - actorId: 0
+    message: "Ch\u0142opie...A co ja b\u0119d\u0119 m\xF3wi\u0142. Twoja misja jest
+      skazana na pora\u017Ck\u0119."
+  - actorId: 1
+    message: "To ja jestem Wybra\u0144cem Przekl\u0119tej St\xF3pki! Prosz\u0119,
+      pom\xF3\u017C mi! U nas, w Zb\u0105szynku, widzia\u0142em kiedy\u015B syren\u0119.
+      Mia\u0142a d\u0142ugie, p\u0142omiennie rude w\u0142osy, wielkie niebieskie
+      oczy i z\u0142oty ogon z migocz\u0105cymi, czerwonymi i diamentowymi \u0142uskami.
+      Znasz j\u0105?"
+  - actorId: 0
+    message: "NA BROD\u0118 CZARNOBOGA, TO TAM UCIEK\u0141A!!! \u017Begnaj! Szukaj
+      demona Navjiyata, to on za tym wszytstkim stoi! To on pilnuje St\xF3pkowych
+      Drzwi!"
+  actors:
+  - name: Vodnikov
+    sprite: {fileID: 668219254, guid: a1a17f7f327331d4b931c1f9cd58fbb9, type: 3}
+  - name: Mirko Polo
+    sprite: {fileID: -244444760, guid: 2dfd0bcb3da87c0419321ce38c1ffe9d, type: 3}

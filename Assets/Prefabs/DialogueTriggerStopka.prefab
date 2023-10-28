@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8304809976124140594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081798002450717122}
+  - component: {fileID: 3018286225001540646}
+  m_Layer: 0
+  m_Name: DialogueTriggerStopka
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2081798002450717122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8304809976124140594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.1853087, y: 3.1983318, z: -0.0065497966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3018286225001540646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8304809976124140594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237e8f416cdd41f40a0f7d049614c1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages:
+  - actorId: 0
+    message: "Ciemno wsz\u0119dzie, g\u0142ucho...Zaraz...sk\u0105d ja to znam?"
+  - actorId: 1
+    message: "Na wrota piekie\u0142, przyby\u0142e\u015B! My\u015Bla\u0142am, \u017Ce
+      m\xF3j los ju\u017C dawno zosta\u0142 stracony..."
+  - actorId: 0
+    message: "Ale...gdzie ja jestem? Moment temu wychodzi\u0142em \u015Bwi\u0119towa\u0107
+      Halloween! Przebrany za...legendarnego podr\xF3\u017Cnika Mirko Polo!"
+  - actorId: 1
+    message: "Szuka\u0142am swojego wybawiciela od wiek\xF3w...Ale nikt tak bardzo
+      nie zas\u0142uguje na miano Naczelnego St\xF3pkarza jak Ty! MIRKO POLO: Naczelnego
+      KOGO??!!"
+  - actorId: 0
+    message: Naczelnego KOGO??!!
+  - actorId: 1
+    message: "Oj nie wstyd\u017A si\u0119 tak, widzia\u0142am co wstawiasz w internety.
+      Najwa\u017Cniejsze, \u017Ce znalaz\u0142am swojego St\xF3pkowego Wybawc\u0119!"
+  - actorId: 0
+    message: "Oh...Racja. Ale co ja tu robi\u0119? Kim jeste\u015B?? I DLACZEGO NIE
+      MASZ ST\xD3P???"
+  - actorId: 1
+    message: "Ju\u017C wyja\u015Bniam, nie mamy chwili do stracenia! Zosta\u0142am
+      przekl\u0119ta. Cofn\u0119\u0142am ci\u0119 w czasie, aby\u015B ocali\u0142
+      ludzko\u015B\u0107 od zag\u0142ady...Demony uci\u0119\u0142y i ukry\u0142y
+      moje st\xF3pki! Kiedy\u015B by\u0142am pot\u0119\u017Cn\u0105 s\u0142owia\u0144sk\u0105
+      bogini\u0105, a moimi towarzyszkami by\u0142y \u0141ada i Mokosz. Z reszt\u0105
+      co tam, na pewno nie uczyli ci\u0119 o nas w waszej bezu\u017Cytecznej szkole."
+  - actorId: 1
+    message: "Beze mnie tw\xF3j \u015Bwiat nie przetrwa! Fetysz st\xF3p zostanie
+      zakazany, a na os\xF3by, kt\xF3re go zignoruj\u0105, czeka kara \u015Bmierci!
+      MUSISZ MI POM\xD3C!"
+  - actorId: 0
+    message: "Co mam zrobi\u0107?!! Nie mog\u0119 do tego dopu\u015Bci\u0107!!!"
+  - actorId: 1
+    message: "Na twojej drodze stan\u0105 trzy demony. Znajd\u017A ich i przes\u0142uchaj,
+      jeden z nich zosta\u0142 stra\u017Cnikiem moich st\xF3p...Nie pytaj czemu.
+      P\xF3ki ich nie odzyskam, nie b\u0119d\u0119 mog\u0142a wype\u0142nia\u0107
+      moich boskich obowi\u0105zk\xF3w. Rytua\u0142 Dziad\xF3w zostanie przerwany!"
+  - actorId: 0
+    message: Dziady...To ta lektura napisana od d*py strony?
+  - actorId: 1
+    message: "JAK \u015AMIESZ!!! Mickiewicz przewraca si\u0119 w grobie. Ruszaj,
+      ale ju\u017C!!!"
+  - actorId: 0
+    message: "O Pani, prosz\u0119 o przebaczenie! Nie zawiod\u0119 ci\u0119, o Boska
+      Bogini St\xF3p!"
+  actors:
+  - name: Mirko Polo
+    sprite: {fileID: -244444760, guid: 2dfd0bcb3da87c0419321ce38c1ffe9d, type: 3}
+  - name: "Przekl\u0119ta "
+    sprite: {fileID: 21300000, guid: b463c5520e7e2544a8a16c0ebb53a5c7, type: 3}

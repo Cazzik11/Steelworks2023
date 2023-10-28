@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7786480244929300278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8388090159593480889}
+  - component: {fileID: 8577949316416365716}
+  m_Layer: 0
+  m_Name: DialogueTriggerDemonGreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8388090159593480889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7786480244929300278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.1853087, y: 3.1983318, z: -0.0065497966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8577949316416365716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7786480244929300278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237e8f416cdd41f40a0f7d049614c1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages:
+  - actorId: 0
+    message: "Jam Navijiata, stra\u017Cnik st\xF3...Eee...znaczy zmiennokszta\u0142tny!
+      W ka\u017Cdej chwili mog\u0119 przybra\u0107 posta\u0107 twojego najwi\u0119kszego
+      koszmaru! \u015Amier\u0107, wojna, choroby, odci\u0119te g\u0142owy, morza
+      krwi, te\u015Bciowa...Miej si\u0119 na baczno\u015Bci! Mog\u0119 w ka\u017Cdej
+      chwili przemieni\u0107 twoje \u017Cycie w piek\u0142o!"
+  - actorId: 1
+    message: "Naviyata? Rzeczywi\u015Bcie zdecydowanie za du\u017Co nawijasz. ODDAWAJ
+      ST\xD3PKI MOJEJ BOGINI!"
+  - actorId: 0
+    message: "NIGDY! Ona jest przekl\u0119ta!!!"
+  - actorId: 1
+    message: "Zaraz, czemu w og\xF3le wzi\u0105\u0142e\u015B te st\xF3pki? Koszmarik
+      i Vodnikov, kt\xF3rych spotka\u0142em na swojej drodze, nie chc\u0105 mie\u0107
+      z tob\u0105 nic wsp\xF3lnego. Co\u015B tu jest nie tak!"
+  - actorId: 0
+    message: "Zdradzono mnie!!! NIKOMU NIE ODDAM SWOICH ST\xD3PEK!"
+  - actorId: 1
+    message: "TWOICH?!! O co tutaj chodzi? TY TE\u017B JESTE\u015A ST\xD3PKARZEM???"
+  - actorId: 0
+    message: "Pozna\u0142e\u015B m\xF3j najwi\u0119kszy sekret...Wszystkie demony
+      si\u0119 mnie wyrzek\u0142y! Nie mam ju\u017C nikogo! By\u0142em zakochany
+      w Przekl\u0119tej St\xF3pce. Ale najbardziej..."
+  - actorId: 1
+    message: "No wydu\u015B to siebie!"
+  - actorId: 0
+    message: "Najbardziej...by\u0142em zakochany w jej st\xF3pkach. I CHCIA\u0141EM
+      JE TYLKO DLA SIEBIE!"
+  - actorId: 1
+    message: "Jest jeszcze nadzieja dla nas obu! Prosz\u0119, otw\xF3rz St\xF3pkowe
+      Drzwi! Mo\u017Cemy wsp\xF3lnie zdecydowa\u0107 o ich losie! Takie jest nasze
+      przeznaczenie!"
+  - actorId: 0
+    message: "WYBIERZ M\u0104DRZE! 1. ODDAJ STOPY PRZEKL\u0118TEJ ST\xD3PCE. 2. POW\u0104CHAJ
+      ST\xD3PKI. 3. POLI\u017B ST\xD3PKI."
+  actors:
+  - name: Navjiyata
+    sprite: {fileID: 668219254, guid: a1a17f7f327331d4b931c1f9cd58fbb9, type: 3}
+  - name: Mirko Polo
+    sprite: {fileID: -244444760, guid: 2dfd0bcb3da87c0419321ce38c1ffe9d, type: 3}
