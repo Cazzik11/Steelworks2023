@@ -7,7 +7,13 @@ public class DialogueTrigger : MonoBehaviour
     public Message[] messages;
     public Actor[] actors;
 
-    public void StartDialogue() {
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        StartDialogue();
+    }
+
+    public void StartDialogue()
+    {
         FindObjectOfType<DialogueManager>().OpenDialogue(messages, actors);
     }
 }

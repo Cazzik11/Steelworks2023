@@ -49,28 +49,44 @@ public class MapGenerator : MonoBehaviour
 
     private void PopulateProps()
     {
+        var parent = new GameObject("generated props");
         var bottomLeftTile = -_generatedDimensions / 2;
 
-        for (int i = 0; i < _generatedDimensions.x; i++)
+        for (int j = 0; j < _generatedDimensions.y; j++)
         {
-            for (int j = 0; j < _generatedDimensions.y; j++)
+            for (int i = (int)_generatedDimensions.x - 1; i >= 0; i--)
             {
                 if (Random.value < TilePopulationChance)
                 {
-                    SpawnRandomEnviroAsset(bottomLeftTile.x + i, bottomLeftTile.y + j);
+                    SpawnRandomEnviroAsset(bottomLeftTile.x + i, bottomLeftTile.y + j, parent.transform);
                 }
             }
         }
     }
 
-    private void SpawnRandomEnviroAsset(float x, float y)
+    private void SpawnRandomEnviroAsset(float x, float y, Transform parent)
     {
         var randomAssetIndex = Random.Range(0, EnviroProps.Count - 1);
         var randomAsset = EnviroProps[randomAssetIndex];
         var xOffset = Random.Range(-0.5f, 0.5f);
         var yOffset = Random.Range(-0.5f, 0.5f);
 
-        Instantiate(randomAsset);
-        randomAsset.transform.position = new Vector3(x + xOffset, y + yOffset, 1 - (y + yOffset)/1000);
+        var asset = Instantiate(randomAsset);
+        asset.transform.position = new Vector3(x + xOffset, y + yOffset, 1 - (y + yOffset)/1000);
+        asset.transform.parent = parent;
+
+        /*if (parent.childCount < 1)
+        {
+            return;
+        }
+
+        for (int i = 0; i < parent.childCount; i++)
+        {
+            if (asset.transform.position.y < parent.GetChild(i).transform.position.y)
+            {
+                asset.transform.SetSiblingIndex(i);
+                break;
+            }
+        }*/
     }
 }
