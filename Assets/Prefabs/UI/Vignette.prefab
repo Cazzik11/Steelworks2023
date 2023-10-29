@@ -6418,6 +6418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9179337681216768466}
+  - component: {fileID: 735591892}
   m_Layer: 5
   m_Name: Vignette
   m_TagString: Untagged
@@ -6460,6 +6461,97 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &735591892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179337681216768461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841884e3de172c6498bfa0fe2dc1ca2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VignetteItems:
+  - {fileID: 966323495}
+  - {fileID: 740158392}
+  - {fileID: 294343013}
+  - {fileID: 1955902205}
+  - {fileID: 1967922069}
+  - {fileID: 477379561}
+  - {fileID: 1912799007}
+  - {fileID: 1709999809}
+  - {fileID: 1623269914}
+  - {fileID: 906691194}
+  - {fileID: 1540985877}
+  - {fileID: 285794973}
+  - {fileID: 405713460}
+  - {fileID: 1052862467}
+  - {fileID: 709540377}
+  - {fileID: 1649245266}
+  - {fileID: 1907031153}
+  - {fileID: 1335586969}
+  - {fileID: 1990708509}
+  - {fileID: 682060386}
+  - {fileID: 1184825859}
+  - {fileID: 255252096}
+  - {fileID: 2128746118}
+  - {fileID: 592270766}
+  - {fileID: 853705101}
+  - {fileID: 901537535}
+  - {fileID: 895292918}
+  - {fileID: 1730073625}
+  - {fileID: 2065668307}
+  - {fileID: 176245792}
+  - {fileID: 1870113998}
+  - {fileID: 1823344253}
+  - {fileID: 561648295}
+  - {fileID: 57677137}
+  - {fileID: 1532156266}
+  - {fileID: 542766384}
+  - {fileID: 1556226898}
+  - {fileID: 1964355042}
+  - {fileID: 2020630535}
+  - {fileID: 1454725726}
+  - {fileID: 1627983614}
+  - {fileID: 1559900755}
+  - {fileID: 28703702}
+  - {fileID: 496325572}
+  - {fileID: 894245866}
+  - {fileID: 876941109}
+  - {fileID: 1165791490}
+  - {fileID: 616933412}
+  - {fileID: 1062722506}
+  - {fileID: 121560788}
+  - {fileID: 1974635857}
+  - {fileID: 262313343}
+  - {fileID: 414457003}
+  - {fileID: 1172763418}
+  - {fileID: 1077365671}
+  - {fileID: 529027319}
+  - {fileID: 363990225}
+  - {fileID: 996595953}
+  - {fileID: 1003299230}
+  - {fileID: 298020468}
+  - {fileID: 41255399}
+  - {fileID: 767933905}
+  - {fileID: 1646854577}
+  - {fileID: 968184341}
+  - {fileID: 2141853350}
+  - {fileID: 1044259768}
+  - {fileID: 986677954}
+  - {fileID: 115931060}
+  - {fileID: 2125210208}
+  - {fileID: 581381511}
+  - {fileID: 1403909843}
+  - {fileID: 743083729}
+  - {fileID: 1995785301}
+  - {fileID: 250606221}
+  - {fileID: 1681094004}
+  - {fileID: 724449637}
+  - {fileID: 449598930}
+  FadeTime: 3
 --- !u!1 &9179337681223817664
 GameObject:
   m_ObjectHideFlags: 0
