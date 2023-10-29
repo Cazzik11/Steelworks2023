@@ -229,7 +229,7 @@ MonoBehaviour:
   - actorId: 0
     message: "NA BROD\u0118 CZARNOBOGA, TO TAM UCIEK\u0141A!!! \u017Begnaj! Szukaj
       demona Navjiyata, to on za tym wszytstkim stoi! To on pilnuje St\xF3pkowych
-      Drzwi!"
+      Drzwi! Szukaj unosz\u0105cych si\u0119 w powietrzu li\u015Bci."
     clip: {fileID: 8300000, guid: b8ebcf8f4db99c24187d1db9f5767ed8, type: 3}
   actors:
   - name: Vodnikov

@@ -145,7 +145,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 1b6e7b443207cd941a2aa123d9e29438, type: 3}
   - actorId: 1
     message: "JAK \u015AMIESZ!!! Mickiewicz przewraca si\u0119 w grobie. Ruszaj,
-      ale ju\u017C!!!"
+      ale ju\u017C!!! Poszukuj iskier i dymu unosz\u0105cych si\u0119 w powietrzu!"
     clip: {fileID: 8300000, guid: 40228f58cd61d9941a869ac524ce2682, type: 3}
   - actorId: 0
     message: "O Pani, prosz\u0119 o przebaczenie! Nie zawiod\u0119 ci\u0119, o Boska

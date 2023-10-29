@@ -229,7 +229,7 @@ MonoBehaviour:
   - actorId: 0
     message: "Ty to tak nazwa\u0142e\u015B! My po prostu doceniamy...pi\u0119kno.
       Denerwujesz mnie ju\u017C, id\u017A poszuka\u0107 Vodnikova! Znajdziesz go
-      po zapachu...ryby."
+      po zapachu...ryby oraz unosz\u0105cych si\u0119 wok\xF3\u0142 b\u0105belkach."
     clip: {fileID: 8300000, guid: 50051166fc8eee24491b1eb1013ad724, type: 3}
   actors:
   - name: Koszmarik
