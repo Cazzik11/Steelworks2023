@@ -6,6 +6,7 @@ using TMPro;
 
 public class MultipleChoice : MonoBehaviour
 {
+    public GameObject Title;
     public GameObject TextBox;
     public GameObject Choice01;
     public GameObject Choice02;
@@ -32,6 +33,7 @@ public class MultipleChoice : MonoBehaviour
             Choice01.SetActive (false);
             Choice02.SetActive (false);
             Choice03.SetActive (false);
+            Title.SetActive(false);
         }
     }
 }
