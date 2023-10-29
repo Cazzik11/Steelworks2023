@@ -2585,7 +2585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5699290716705357014, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5699290716705357014, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2593,7 +2593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5699290716705357014, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5699290716705357014, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_AnchorMin.y
@@ -2601,11 +2601,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5699290716705357014, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 778.9524
+      value: 0.56
       objectReference: {fileID: 0}
     - target: {fileID: 5699290716705357014, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 125
+      value: 168.2704
       objectReference: {fileID: 0}
     - target: {fileID: 5699290716705357014, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2637,11 +2637,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5699290716705357014, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.2800293
       objectReference: {fileID: 0}
     - target: {fileID: 5699290716705357014, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -81
+      value: -185.86
       objectReference: {fileID: 0}
     - target: {fileID: 5699290716705357014, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2658,10 +2658,6 @@ PrefabInstance:
     - target: {fileID: 7770903895328934199, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_Name
       value: DialogueBox
-      objectReference: {fileID: 0}
-    - target: {fileID: 7770903895328934199, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
