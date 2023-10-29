@@ -2468,6 +2468,10 @@ PrefabInstance:
       value: Klik [SPACJA] kurwa ten
       objectReference: {fileID: 0}
     - target: {fileID: 74851232, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+    - target: {fileID: 74851232, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_fontStyle
       value: 1
       objectReference: {fileID: 0}
@@ -2487,6 +2491,10 @@ PrefabInstance:
       propertyPath: m_fontColor.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 74851232, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
     - target: {fileID: 74851232, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4278190080

@@ -123,11 +123,11 @@ MonoBehaviour:
       przekl\u0119ta. Cofn\u0119\u0142am ci\u0119 w czasie, aby\u015B ocali\u0142
       ludzko\u015B\u0107 od zag\u0142ady...Demony uci\u0119\u0142y i ukry\u0142y
       moje st\xF3pki! Kiedy\u015B by\u0142am pot\u0119\u017Cn\u0105 s\u0142owia\u0144sk\u0105
-      bogini\u0105, a moimi towarzyszkami by\u0142y \u0141ada i Mokosz. Z reszt\u0105
-      co tam, na pewno nie uczyli ci\u0119 o nas w waszej bezu\u017Cytecznej szkole."
+      bogini\u0105, a moimi towarzyszkami by\u0142y \u0141ada i Mokosz. "
     clip: {fileID: 8300000, guid: 40228f58cd61d9941a869ac524ce2682, type: 3}
   - actorId: 1
-    message: "Beze mnie tw\xF3j \u015Bwiat nie przetrwa! Fetysz st\xF3p zostanie
+    message: "Z reszt\u0105 co tam, na pewno nie uczyli ci\u0119 o nas w waszej bezu\u017Cytecznej
+      szkole. Beze mnie tw\xF3j \u015Bwiat nie przetrwa! Fetysz st\xF3p zostanie
       zakazany, a na os\xF3by, kt\xF3re go zignoruj\u0105, czeka kara \u015Bmierci!
       MUSISZ MI POM\xD3C!"
     clip: {fileID: 8300000, guid: 40228f58cd61d9941a869ac524ce2682, type: 3}
