@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5931453692525144598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5931453692525144593}
+  - component: {fileID: 5931453692525144594}
+  - component: {fileID: 5931453692525144595}
+  - component: {fileID: 5931453692525144596}
+  - component: {fileID: 7643186509995976676}
+  - component: {fileID: 2356252932153434872}
+  - component: {fileID: 8130234077019736162}
+  m_Layer: 0
+  m_Name: DemonGreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5931453692525144593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5931453692525144598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5931453692525144594
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5931453692525144598}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 1131028152, guid: ebbe88b2152418b4c8263da58e141306, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 2.3125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &5931453692525144595
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5931453692525144598}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!61 &5931453692525144596
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5931453692525144598}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.875, y: 2.1875}
+    newSize: {x: 2, y: 2.3125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.3125}
+  m_EdgeRadius: 0
+--- !u!95 &7643186509995976676
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5931453692525144598}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e5bb0f2197c9fa84fa5321e950ff96ea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2356252932153434872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5931453692525144598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cedbb959a974c34591b8b3c6cf45f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 8130234077019736162}
+--- !u!114 &8130234077019736162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5931453692525144598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237e8f416cdd41f40a0f7d049614c1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages:
+  - actorId: 0
+    message: "Jam Navijiata, stra\u017Cnik st\xF3...Eee...znaczy zmiennokszta\u0142tny!
+      W ka\u017Cdej chwili mog\u0119 przybra\u0107 posta\u0107 twojego najwi\u0119kszego
+      koszmaru! \u015Amier\u0107, wojna, choroby, odci\u0119te g\u0142owy, morza
+      krwi, te\u015Bciowa...Miej si\u0119 na baczno\u015Bci! Mog\u0119 w ka\u017Cdej
+      chwili przemieni\u0107 twoje \u017Cycie w piek\u0142o!"
+    clip: {fileID: 0}
+  - actorId: 1
+    message: "Naviyata? Rzeczywi\u015Bcie zdecydowanie za du\u017Co nawijasz. ODDAWAJ
+      ST\xD3PKI MOJEJ BOGINI!"
+    clip: {fileID: 0}
+  - actorId: 0
+    message: "NIGDY! Ona jest przekl\u0119ta!!!"
+    clip: {fileID: 0}
+  - actorId: 1
+    message: "Zaraz, czemu w og\xF3le wzi\u0105\u0142e\u015B te st\xF3pki? Koszmarik
+      i Vodnikov, kt\xF3rych spotka\u0142em na swojej drodze, nie chc\u0105 mie\u0107
+      z tob\u0105 nic wsp\xF3lnego. Co\u015B tu jest nie tak!"
+    clip: {fileID: 0}
+  - actorId: 0
+    message: "Zdradzono mnie!!! NIKOMU NIE ODDAM SWOICH ST\xD3PEK!"
+    clip: {fileID: 0}
+  - actorId: 1
+    message: "TWOICH?!! O co tutaj chodzi? TY TE\u017B JESTE\u015A ST\xD3PKARZEM???"
+    clip: {fileID: 0}
+  - actorId: 0
+    message: "Pozna\u0142e\u015B m\xF3j najwi\u0119kszy sekret...Wszystkie demony
+      si\u0119 mnie wyrzek\u0142y! Nie mam ju\u017C nikogo! By\u0142em zakochany
+      w Przekl\u0119tej St\xF3pce. Ale najbardziej..."
+    clip: {fileID: 0}
+  - actorId: 1
+    message: "No wydu\u015B to siebie!"
+    clip: {fileID: 0}
+  - actorId: 0
+    message: "Najbardziej...by\u0142em zakochany w jej st\xF3pkach. I CHCIA\u0141EM
+      JE TYLKO DLA SIEBIE!"
+    clip: {fileID: 0}
+  - actorId: 1
+    message: "Jest jeszcze nadzieja dla nas obu! Prosz\u0119, otw\xF3rz St\xF3pkowe
+      Drzwi! Mo\u017Cemy wsp\xF3lnie zdecydowa\u0107 o ich losie! Takie jest nasze
+      przeznaczenie!"
+    clip: {fileID: 0}
+  - actorId: 0
+    message: "WYBIERZ M\u0104DRZE! 1. ODDAJ STOPY PRZEKL\u0118TEJ ST\xD3PCE. 2. POW\u0104CHAJ
+      ST\xD3PKI. 3. POLI\u017B ST\xD3PKI."
+    clip: {fileID: 0}
+  actors:
+  - name: Navjiyata
+    sprite: {fileID: 668219254, guid: a1a17f7f327331d4b931c1f9cd58fbb9, type: 3}
+  - name: Mirko Polo
+    sprite: {fileID: -244444760, guid: 2dfd0bcb3da87c0419321ce38c1ffe9d, type: 3}
