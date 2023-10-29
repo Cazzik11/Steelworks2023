@@ -13,14 +13,8 @@ public class FadeOut : MonoBehaviour
     private float _timeRemaining;
     private bool _fade;
 
-    private void Awake()
-    {
-        DialogueManager.OnDialogueEnded += Fade;
-    }
-
     public void Fade()
     {
-        DialogueManager.OnDialogueEnded -= Fade;
         _fade = true;
         _timeRemaining = FadeTime;
     }

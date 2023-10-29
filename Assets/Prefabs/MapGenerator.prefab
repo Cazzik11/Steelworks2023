@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ed4520bfa73e41bd458e02f7c6ba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapDimensions: {x: 200, y: 200}
+  MapDimensions: {x: 140, y: 140}
   GrassTile: {fileID: 2514070268885959571, guid: b2853c401008e5a4e82138220f22620d, type: 3}
   GrassTileSize: {x: 16, y: 16}
   EnviroProps:
@@ -77,7 +77,7 @@ MonoBehaviour:
   - {fileID: 5931453692525144598, guid: ca569cd0e553b5b41aa27f0d0f474c98, type: 3}
   MapGenerator: {fileID: 6743124278239001450}
   DialogueManager: {fileID: 0}
-  MinDistanceFromPlayer: 55
+  MinDistanceFromPlayer: 40
 --- !u!114 &6743124278239001449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,8 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6032cd8f8e937314fa3858833936783d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinInterval: 0
-  MaxInterval: 0
+  MinInterval: 7
+  MaxInterval: 10
   HintDatas:
   - Objects: []
   - Objects:
@@ -177,4 +177,4 @@ MonoBehaviour:
     - {fileID: 8454839255584285273, guid: ba6f230abe1960343aadc699b36d527a, type: 3}
   - Objects:
     - {fileID: 4378977177102853591, guid: b2bb9852647653545b9dd4cdbc105c37, type: 3}
-  ProgressController: {fileID: 0}
+  ProgressController: {fileID: 6743124278239001448}

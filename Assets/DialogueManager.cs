@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text messageText;
     public RectTransform backgroundBox;
     public Action OnDialogueEnded;
+    public Action<int> OnMessageAppear;
 
     Message[] currentMessages;
     Actor[] currentActors;
@@ -55,6 +56,7 @@ public class DialogueManager : MonoBehaviour
 
         AnimateTextColor();
         PlayMessageSound(messageToDisplay);
+        OnMessageAppear?.Invoke(activeMessage);
     }
 
     public void NextMessage()

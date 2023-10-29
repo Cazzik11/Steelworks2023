@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1557291477924106417}
   - component: {fileID: 1557291477924106416}
   - component: {fileID: 1557291477924106419}
+  - component: {fileID: 7716931431680437730}
   m_Layer: 0
   m_Name: Ghost_DemonRed
   m_TagString: Untagged
@@ -101,3 +102,16 @@ MonoBehaviour:
   noise: 0.315
   sway: 0.792
   swayOrigin: 1
+--- !u!114 &7716931431680437730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557291477924106418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b6deca94e371741ae3c841add3ca4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestroyTime: 0.6
