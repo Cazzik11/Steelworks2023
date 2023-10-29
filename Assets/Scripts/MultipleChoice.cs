@@ -6,12 +6,19 @@ using TMPro;
 
 public class MultipleChoice : MonoBehaviour
 {
+    public GameObject Panel;
+    public GameObject MenuButton;
     public GameObject Title;
     public GameObject TextBox;
     public GameObject Choice01;
     public GameObject Choice02;
     public GameObject Choice03;
     public int ChoiceMade;
+
+    public void Activate()
+    {
+        Panel.SetActive(true);
+    }
 
     public void Choice0ption1 () {
         TextBox.GetComponent<TMP_Text>().text = "ZOSTAŁEŚ OSZUKANY! PRZEKLĘTA STÓPKA OKAZAŁA SIĘ PRZEBIEGŁYM DEMONEM. GINIESZ MARNIE!";
@@ -34,6 +41,7 @@ public class MultipleChoice : MonoBehaviour
             Choice02.SetActive (false);
             Choice03.SetActive (false);
             Title.SetActive(false);
+            MenuButton.SetActive(true);
         }
     }
 }

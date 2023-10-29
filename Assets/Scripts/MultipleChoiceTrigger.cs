@@ -11,6 +11,6 @@ public class MultipleChoiceTrigger : MonoBehaviour
 
     public void StartDialogue()
     {
-        FindObjectOfType<MultipleChoice>().gameObject.SetActive(true);
+        FindObjectOfType<MultipleChoice>().Activate();
     }
 }
