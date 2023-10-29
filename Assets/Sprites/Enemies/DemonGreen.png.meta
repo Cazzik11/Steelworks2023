@@ -120,10 +120,10 @@ TextureImporter:
       name: DemonGreen_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 9
         y: 0
-        width: 30
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,7 +131,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43341ac5c90aeb340b035bfe0f005acb
+      spriteID: a5f096e487da067458718a0887ee5ebb
       internalID: 1131028152
       vertices: []
       indices: 
@@ -141,10 +141,10 @@ TextureImporter:
       name: DemonGreen_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 57
         y: 0
-        width: 30
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,7 +152,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e99866bacc65f444a214edff2271ee2
+      spriteID: 62d5242105d838c4cb37a6731d7b6200
       internalID: 977034596
       vertices: []
       indices: 
@@ -162,10 +162,10 @@ TextureImporter:
       name: DemonGreen_2
       rect:
         serializedVersion: 2
-        x: 67
+        x: 105
         y: 0
-        width: 30
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,7 +173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5237b7141c1204f4e92b10014a91eff8
+      spriteID: 923f79c4dde502e4fb64927aa81fe431
       internalID: -529737726
       vertices: []
       indices: 
@@ -183,10 +183,10 @@ TextureImporter:
       name: DemonGreen_3
       rect:
         serializedVersion: 2
-        x: 100
+        x: 153
         y: 0
-        width: 33
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,7 +194,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9feda6b4e185e8a49a5e9e08e1f5fc6d
+      spriteID: 2a062d2c976ee114da786941b1030a8b
       internalID: -246407488
       vertices: []
       indices: 
@@ -204,10 +204,10 @@ TextureImporter:
       name: DemonGreen_4
       rect:
         serializedVersion: 2
-        x: 136
+        x: 201
         y: 0
-        width: 35
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,7 +215,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 541de6aa697122447bb1d47e68ef01a0
+      spriteID: 35c00f946ade232488333866df4f63b5
       internalID: 6938986
       vertices: []
       indices: 
@@ -225,10 +225,10 @@ TextureImporter:
       name: DemonGreen_5
       rect:
         serializedVersion: 2
-        x: 174
+        x: 249
         y: 0
-        width: 35
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,7 +236,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98743accac3faed4f88293d533b2f3ee
+      spriteID: 15b22c842f702504c80fda9508e8df1e
       internalID: -636648257
       vertices: []
       indices: 
@@ -246,10 +246,10 @@ TextureImporter:
       name: DemonGreen_6
       rect:
         serializedVersion: 2
-        x: 212
+        x: 297
         y: 0
-        width: 34
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,7 +257,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d92047d2d5885a14dbacbd2acf764f32
+      spriteID: 210e6b93238676d4b96a89bee74e2463
       internalID: 635751209
       vertices: []
       indices: 
@@ -267,10 +267,10 @@ TextureImporter:
       name: DemonGreen_7
       rect:
         serializedVersion: 2
-        x: 248
+        x: 345
         y: 0
-        width: 34
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,7 +278,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a083ed5cd6ebfd4f846fbae18d3b20c
+      spriteID: 1ec74059436739442ae1485ac65b9cf0
       internalID: 1125076814
       vertices: []
       indices: 
@@ -288,10 +288,10 @@ TextureImporter:
       name: DemonGreen_8
       rect:
         serializedVersion: 2
-        x: 286
+        x: 393
         y: 0
-        width: 34
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,7 +299,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cc361fbdc447624c8014901ea7611aa
+      spriteID: 58f0191ba17ea46469d3909d48b19dee
       internalID: 843291070
       vertices: []
       indices: 
@@ -309,10 +309,10 @@ TextureImporter:
       name: DemonGreen_9
       rect:
         serializedVersion: 2
-        x: 322
+        x: 441
         y: 0
-        width: 35
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,7 +320,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7bd9f22cae75e14b90c389335f84df9
+      spriteID: bffea1d5815d4074491d407f4d54c874
       internalID: 1206690412
       vertices: []
       indices: 
@@ -330,10 +330,10 @@ TextureImporter:
       name: DemonGreen_10
       rect:
         serializedVersion: 2
-        x: 360
+        x: 489
         y: 0
-        width: 35
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,7 +341,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cf689c675a0c1d4bbd1067a76a8ccec
+      spriteID: 0bc68580a3eef2d41a34c04c3d0e9eda
       internalID: 398526506
       vertices: []
       indices: 
@@ -351,10 +351,10 @@ TextureImporter:
       name: DemonGreen_11
       rect:
         serializedVersion: 2
-        x: 399
+        x: 537
         y: 0
-        width: 33
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,7 +362,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 636d41ecc57fe634aa9c4cde1fe49127
+      spriteID: d05c4055f3755d149969d37c1c1e7c4d
       internalID: 991849825
       vertices: []
       indices: 
@@ -372,10 +372,10 @@ TextureImporter:
       name: DemonGreen_12
       rect:
         serializedVersion: 2
-        x: 436
+        x: 585
         y: 0
-        width: 30
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,7 +383,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea0e25a413e83a1448fddceb620d86d7
+      spriteID: c66244e9160a1b84097a68eb102a96e3
       internalID: 372302357
       vertices: []
       indices: 
@@ -393,10 +393,10 @@ TextureImporter:
       name: DemonGreen_13
       rect:
         serializedVersion: 2
-        x: 469
+        x: 633
         y: 0
-        width: 30
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,7 +404,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00e0566127f9a16459d58cb63a1fb8a0
+      spriteID: 271a87a272967ed42b95afd9eaab519f
       internalID: 1665284848
       vertices: []
       indices: 
@@ -414,10 +414,10 @@ TextureImporter:
       name: DemonGreen_14
       rect:
         serializedVersion: 2
-        x: 502
+        x: 681
         y: 0
-        width: 30
-        height: 35
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,7 +425,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fe3e62196c932c42bd9fccc43058ce6
+      spriteID: d54ba21bab060e74d9cf145f58701adf
       internalID: 603065546
       vertices: []
       indices: 
@@ -449,7 +449,14 @@ TextureImporter:
       DemonGreen_12: 372302357
       DemonGreen_13: 1665284848
       DemonGreen_14: 603065546
+      DemonGreen_15: 14944269
+      DemonGreen_16: 1239591025
+      DemonGreen_17: -124400463
+      DemonGreen_18: 1266473377
+      DemonGreen_19: 1843373598
       DemonGreen_2: -529737726
+      DemonGreen_20: -1144183833
+      DemonGreen_21: -441666497
       DemonGreen_3: -246407488
       DemonGreen_4: 6938986
       DemonGreen_5: -636648257
