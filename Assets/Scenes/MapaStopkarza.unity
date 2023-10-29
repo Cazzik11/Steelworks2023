@@ -655,6 +655,7 @@ MonoBehaviour:
   - {fileID: 8648927831235197473, guid: 847b18d0f0dc2e74dbfedc9633978569, type: 3}
   - {fileID: 2420622980730532105, guid: 02db781666183824182a9ba8bb7c5ad5, type: 3}
   - {fileID: 6369344209839885058, guid: 8f4d50b28efb8f84c92de50761629951, type: 3}
+  BorderTree: {fileID: 8088804892708619138, guid: 890d5d9fa906a5b4b9b7329e8a419c62, type: 3}
   Obstacles: []
   TilePopulationChance: 0.34
 --- !u!4 &321072913

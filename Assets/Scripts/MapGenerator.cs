@@ -7,6 +7,7 @@ public class MapGenerator : MonoBehaviour
     public GameObject GrassTile;
     public Vector2 GrassTileSize;
     public List<GameObject> EnviroProps;
+    public GameObject BorderTree;
     public List<GameObject> Obstacles;
     public float TilePopulationChance;
 
@@ -17,6 +18,7 @@ public class MapGenerator : MonoBehaviour
     {
         GenerateGround();
         PopulateProps();
+        SpawnMapBoundsTrees();
     }
 
     private void GenerateGround()
@@ -91,8 +93,56 @@ public class MapGenerator : MonoBehaviour
         }*/
     }
 
-    private void SpawnBlockers()
+    private void SpawnMapBoundsTrees()
     {
+        var bottomLeftAnchor = new Vector2((-(_groundTileCount.x - 1)) / 2 * GrassTileSize.x, (-(_groundTileCount.y - 1) / 2) * GrassTileSize.y);
 
+        // SPAWN LEFT BORDER
+        for (int j = -1; j < _groundTileCount.y + 1; j++)
+        {
+            var position = bottomLeftAnchor - GrassTileSize.x * Vector2.right + j * GrassTileSize.y * Vector2.up;
+            var instance = Instantiate(GrassTile);
+            instance.transform.position = position;
+            SpawnBorderTreesOnTile(position);
+        }
+
+        // SPAWN RIGHT BORDER
+        for (int j = -1; j < _groundTileCount.y + 1; j++)
+        {
+            var position = bottomLeftAnchor + _groundTileCount.x * GrassTileSize.x * Vector2.right + j * GrassTileSize.y * Vector2.up;
+            var instance = Instantiate(GrassTile);
+            instance.transform.position = position;
+            SpawnBorderTreesOnTile(position);
+        }
+
+        // SPAWN TOP BORDER
+        for (int i = 0; i < _groundTileCount.x; i++)
+        {
+            var position = bottomLeftAnchor + i * GrassTileSize.x * Vector2.right + _groundTileCount.y * GrassTileSize.y * Vector2.up;
+            var instance = Instantiate(GrassTile);
+            instance.transform.position = position;
+            SpawnBorderTreesOnTile(position);
+        }
+
+        // SPAWN BOTTOM BORDER
+        for (int i = 0; i < _groundTileCount.x; i++)
+        {
+            var position = bottomLeftAnchor + i * GrassTileSize.x * Vector2.right - GrassTileSize.y * Vector2.up;
+            var instance = Instantiate(GrassTile);
+            instance.transform.position = position;
+            SpawnBorderTreesOnTile(position);
+        }
+    }
+
+    private void SpawnBorderTreesOnTile(Vector2 position)
+    {
+        for (int i = 0; i < GrassTileSize.x; i++)
+        {
+            for (int j = 0; j < GrassTileSize.y; j++)
+            {
+                var tree = Instantiate(BorderTree);
+                tree.transform.position = position + (-GrassTileSize.x / 2 + i) * Vector2.right + (-GrassTileSize.y / 2 + j) * Vector2.up;
+            }
+        }
     }
 }
