@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class VignetteFade : MonoBehaviour
 {
     public DialogueManager DialogueManager;
+    public ProgressController ProgressController;
     public List<Image> VignetteItems;
     public float FadeTime;
     public float Delay;
@@ -13,6 +14,7 @@ public class VignetteFade : MonoBehaviour
     private List<VignetteData> _vignetteDatas;
     private float _timeRemaining;
     private bool _fade;
+    private bool _in;
 
     private void Awake()
     {
@@ -28,19 +30,32 @@ public class VignetteFade : MonoBehaviour
             item.color = new Color(item.color.r, item.color.g, item.color.b, 1f);
         }
 
-        DialogueManager.OnDialogueEnded += Fade;
+        DialogueManager.OnDialogueEnded += FadeInVignette;
+        DialogueManager.OnMessageAppear += FadeOutVignette;
     }
 
-    public void Fade()
+    public void FadeInVignette()
     {
-        DialogueManager.OnDialogueEnded -= Fade;
+        DialogueManager.OnDialogueEnded -= FadeInVignette;
         Invoke("FadeDelayed", Delay);
     }
 
     public void FadeDelayed()
     {
         _fade = true;
+        _in = true;
         _timeRemaining = FadeTime;
+    }
+
+    public void FadeOutVignette(int index)
+    {
+        if (ProgressController.Progress == 4 && index == 0)
+        {
+            _fade = true;
+            _in = false;
+            _timeRemaining = FadeTime;
+            DialogueManager.OnMessageAppear -= FadeOutVignette;
+        }
     }
 
     public void Update()
@@ -57,7 +72,7 @@ public class VignetteFade : MonoBehaviour
             _fade = false;
         }
 
-        var lerpValue = 1 - _timeRemaining / FadeTime;
+        var lerpValue = _in ? 1 - _timeRemaining / FadeTime : _timeRemaining / FadeTime;
 
         foreach (var data in _vignetteDatas)
         {

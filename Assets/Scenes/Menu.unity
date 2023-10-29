@@ -279,7 +279,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -213.8117, y: 79}
+  m_AnchoredPosition: {x: -188.5, y: 48.5}
   m_SizeDelta: {x: 230.5517, y: 71.6855}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &609372861
@@ -564,12 +564,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 800, y: 450}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -956,7 +956,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SIUSIACZEK
+  m_text: MIRKO POLO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07b16e05a9ff4064bada51eb2d9b51da, type: 2}
   m_sharedMaterial: {fileID: -1341531735738577882, guid: 07b16e05a9ff4064bada51eb2d9b51da, type: 2}

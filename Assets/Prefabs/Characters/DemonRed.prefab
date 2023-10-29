@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5931453692525144597}
   - component: {fileID: 2356252932153434872}
   - component: {fileID: 8130234077019736162}
+  - component: {fileID: 4968485727101475760}
   m_Layer: 0
   m_Name: DemonRed
   m_TagString: Untagged
@@ -235,6 +236,19 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 00ff1d3c3d37e3341bb49e897f748ddb, type: 3}
   - name: Mirko Polo
     sprite: {fileID: -244444760, guid: 2dfd0bcb3da87c0419321ce38c1ffe9d, type: 3}
+--- !u!114 &4968485727101475760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5931453692525144598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d95ea01205b718744b3283b31a333071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoxCollider: {fileID: 5931453692525144596}
 --- !u!1001 &1528255412637380272
 PrefabInstance:
   m_ObjectHideFlags: 0

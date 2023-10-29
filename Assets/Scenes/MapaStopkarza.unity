@@ -909,6 +909,10 @@ PrefabInstance:
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 2029563141}
+    - target: {fileID: 735591892, guid: 6896cc0f6e030fc4c9ef7c1ddc0f8e5f, type: 3}
+      propertyPath: ProgressController
+      value: 
+      objectReference: {fileID: 6743124278018593915}
     - target: {fileID: 9179337681216768461, guid: 6896cc0f6e030fc4c9ef7c1ddc0f8e5f, type: 3}
       propertyPath: m_Name
       value: Vignette
@@ -2322,6 +2326,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 689650083514622311}
     m_Modifications:
+    - target: {fileID: 74851231, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 133.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 74851231, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 74851231, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -138.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 74851232, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
+      propertyPath: m_text
+      value: Klik [SPACJA] kurwa ten
+      objectReference: {fileID: 0}
+    - target: {fileID: 74851232, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 74851232, guid: dac5083a75eb4364bb16fcfe5e4221b3, type: 3}
       propertyPath: m_fontColor.a
       value: 1
@@ -2818,6 +2842,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 408a261542d897741a781991d2086d77, type: 3}
+--- !u!114 &6743124278018593915 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6743124278239001448, guid: 408a261542d897741a781991d2086d77, type: 3}
+  m_PrefabInstance: {fileID: 6743124278018593914}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fd514d72ca99b41b4616d51fb5050b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7202081884120473440
 GameObject:
   m_ObjectHideFlags: 0

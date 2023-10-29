@@ -75,6 +75,7 @@ MonoBehaviour:
   - {fileID: 5931453692525144598, guid: 92b7bbf6be6548d4c89d0f94c61286bf, type: 3}
   - {fileID: 5931453692525144598, guid: 0630782104a73a142ad8fb48c99c7db8, type: 3}
   - {fileID: 5931453692525144598, guid: ca569cd0e553b5b41aa27f0d0f474c98, type: 3}
+  - {fileID: 252237438603405572, guid: a315df2b85eedfa42956e4fc028dd597, type: 3}
   MapGenerator: {fileID: 6743124278239001450}
   DialogueManager: {fileID: 0}
   MinDistanceFromPlayer: 40
