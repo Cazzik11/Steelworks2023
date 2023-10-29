@@ -8,6 +8,7 @@ public class FadeOut : MonoBehaviour
     public DialogueManager DialogueManager;
     public Image Image;
     public float FadeTime;
+    public bool FadeIn;
 
     private float _timeRemaining;
     private bool _fade;
@@ -38,7 +39,7 @@ public class FadeOut : MonoBehaviour
             _fade = false;
         }
 
-        var lerpValue = 1 - _timeRemaining / FadeTime;
+        var lerpValue = FadeIn ? _timeRemaining / FadeTime : 1 - _timeRemaining / FadeTime;
 
         var alphaValue = Mathf.Lerp(1f, 0f, lerpValue);
         Image.color = new Color(Image.color.r,Image.color.g, Image.color.b, alphaValue);

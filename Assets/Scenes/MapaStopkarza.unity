@@ -616,160 +616,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &321072911
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 321072913}
-  - component: {fileID: 321072912}
-  - component: {fileID: 321072914}
-  - component: {fileID: 321072915}
-  m_Layer: 0
-  m_Name: MapGenerator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &321072912
+--- !u!114 &321072914 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6743124278239001448, guid: 408a261542d897741a781991d2086d77, type: 3}
+  m_PrefabInstance: {fileID: 6743124278018593914}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321072911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b45ed4520bfa73e41bd458e02f7c6ba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MapDimensions: {x: 200, y: 200}
-  GrassTile: {fileID: 2514070268885959571, guid: b2853c401008e5a4e82138220f22620d, type: 3}
-  GrassTileSize: {x: 16, y: 16}
-  EnviroProps:
-  - {fileID: 2943311687826021281, guid: 65b7867d9dff7474cb9d4dd564f134ed, type: 3}
-  - {fileID: 7481442340179661787, guid: 5b310367907ab154f92f53f6726f8784, type: 3}
-  - {fileID: 8648927831235197473, guid: 847b18d0f0dc2e74dbfedc9633978569, type: 3}
-  - {fileID: 2420622980730532105, guid: 02db781666183824182a9ba8bb7c5ad5, type: 3}
-  - {fileID: 6369344209839885058, guid: 8f4d50b28efb8f84c92de50761629951, type: 3}
-  BorderTree: {fileID: 8088804892708619138, guid: 890d5d9fa906a5b4b9b7329e8a419c62, type: 3}
-  Obstacles: []
-  TilePopulationChance: 0.34
---- !u!4 &321072913
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321072911}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7904768, y: 0.54603255, z: -4.2314787}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &321072914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321072911}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3fd514d72ca99b41b4616d51fb5050b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProgressObjects:
-  - {fileID: 5931453692525144598, guid: 92b7bbf6be6548d4c89d0f94c61286bf, type: 3}
-  - {fileID: 5931453692525144598, guid: 0630782104a73a142ad8fb48c99c7db8, type: 3}
-  - {fileID: 5931453692525144598, guid: ca569cd0e553b5b41aa27f0d0f474c98, type: 3}
-  MapGenerator: {fileID: 321072912}
-  DialogueManager: {fileID: 2029563141}
-  MinDistanceFromPlayer: 55
---- !u!114 &321072915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321072911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d50d96ca40ed6f4ba3dd8ffc8053931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  messages:
-  - actorId: 0
-    message: "Ciemno wsz\u0119dzie, g\u0142ucho...Zaraz...sk\u0105d ja to znam?"
-    clip: {fileID: 8300000, guid: 1b6e7b443207cd941a2aa123d9e29438, type: 3}
-  - actorId: 1
-    message: "Na wrota piekie\u0142, przyby\u0142e\u015B! My\u015Bla\u0142am, \u017Ce
-      m\xF3j los ju\u017C dawno zosta\u0142 stracony..."
-    clip: {fileID: 8300000, guid: 40228f58cd61d9941a869ac524ce2682, type: 3}
-  - actorId: 0
-    message: "Ale...gdzie ja jestem? Moment temu wychodzi\u0142em \u015Bwi\u0119towa\u0107
-      Halloween! Przebrany za...legendarnego podr\xF3\u017Cnika Mirko Polo!"
-    clip: {fileID: 8300000, guid: 1b6e7b443207cd941a2aa123d9e29438, type: 3}
-  - actorId: 1
-    message: "Szuka\u0142am swojego wybawiciela od wiek\xF3w...Ale nikt tak bardzo
-      nie zas\u0142uguje na miano Naczelnego St\xF3pkarza jak Ty!"
-    clip: {fileID: 8300000, guid: 40228f58cd61d9941a869ac524ce2682, type: 3}
-  - actorId: 0
-    message: Naczelnego KOGO??!!
-    clip: {fileID: 8300000, guid: 1b6e7b443207cd941a2aa123d9e29438, type: 3}
-  - actorId: 1
-    message: "Oj nie wstyd\u017A si\u0119 tak, widzia\u0142am co wstawiasz w internety.
-      Najwa\u017Cniejsze, \u017Ce znalaz\u0142am swojego St\xF3pkowego Wybawc\u0119!"
-    clip: {fileID: 8300000, guid: 40228f58cd61d9941a869ac524ce2682, type: 3}
-  - actorId: 0
-    message: "Oh...Racja. Ale co ja tu robi\u0119? Kim jeste\u015B?? I DLACZEGO NIE
-      MASZ ST\xD3P???"
-    clip: {fileID: 8300000, guid: 1b6e7b443207cd941a2aa123d9e29438, type: 3}
-  - actorId: 1
-    message: "Ju\u017C wyja\u015Bniam, nie mamy chwili do stracenia! Zosta\u0142am
-      przekl\u0119ta. Cofn\u0119\u0142am ci\u0119 w czasie, aby\u015B ocali\u0142
-      ludzko\u015B\u0107 od zag\u0142ady...Demony uci\u0119\u0142y i ukry\u0142y
-      moje st\xF3pki! Kiedy\u015B by\u0142am pot\u0119\u017Cn\u0105 s\u0142owia\u0144sk\u0105
-      bogini\u0105, a moimi towarzyszkami by\u0142y \u0141ada i Mokosz. Z reszt\u0105
-      co tam, na pewno nie uczyli ci\u0119 o nas w waszej bezu\u017Cytecznej szkole."
-    clip: {fileID: 8300000, guid: 40228f58cd61d9941a869ac524ce2682, type: 3}
-  - actorId: 1
-    message: "Beze mnie tw\xF3j \u015Bwiat nie przetrwa! Fetysz st\xF3p zostanie
-      zakazany, a na os\xF3by, kt\xF3re go zignoruj\u0105, czeka kara \u015Bmierci!
-      MUSISZ MI POM\xD3C!"
-    clip: {fileID: 8300000, guid: 40228f58cd61d9941a869ac524ce2682, type: 3}
-  - actorId: 0
-    message: "Co mam zrobi\u0107?!! Nie mog\u0119 do tego dopu\u015Bci\u0107!!!"
-    clip: {fileID: 8300000, guid: 1b6e7b443207cd941a2aa123d9e29438, type: 3}
-  - actorId: 1
-    message: "Na twojej drodze stan\u0105 trzy demony. Znajd\u017A ich i przes\u0142uchaj,
-      jeden z nich zosta\u0142 stra\u017Cnikiem moich st\xF3p...Nie pytaj czemu.
-      P\xF3ki ich nie odzyskam, nie b\u0119d\u0119 mog\u0142a wype\u0142nia\u0107
-      moich boskich obowi\u0105zk\xF3w. Rytua\u0142 Dziad\xF3w zostanie przerwany!"
-    clip: {fileID: 8300000, guid: 40228f58cd61d9941a869ac524ce2682, type: 3}
-  - actorId: 0
-    message: Dziady...To ta lektura napisana od d*py strony?
-    clip: {fileID: 8300000, guid: 1b6e7b443207cd941a2aa123d9e29438, type: 3}
-  - actorId: 1
-    message: "JAK \u015AMIESZ!!! Mickiewicz przewraca si\u0119 w grobie. Ruszaj,
-      ale ju\u017C!!!"
-    clip: {fileID: 8300000, guid: 40228f58cd61d9941a869ac524ce2682, type: 3}
-  - actorId: 0
-    message: "O Pani, prosz\u0119 o przebaczenie! Nie zawiod\u0119 ci\u0119, o Boska
-      Bogini St\xF3p!"
-    clip: {fileID: 8300000, guid: 1b6e7b443207cd941a2aa123d9e29438, type: 3}
-  actors:
-  - name: Mirko Polo
-    sprite: {fileID: -244444760, guid: 2dfd0bcb3da87c0419321ce38c1ffe9d, type: 3}
-  - name: "Przekl\u0119ta St\xF3pka"
-    sprite: {fileID: 21300000, guid: 2e09daec059a45a4182c04aefb0bb74d, type: 3}
 --- !u!1 &453751987
 GameObject:
   m_ObjectHideFlags: 0
@@ -2197,6 +2054,7 @@ MonoBehaviour:
   DialogueManager: {fileID: 2029563141}
   Image: {fileID: 1338657242}
   FadeTime: 2
+  FadeIn: 0
 --- !u!1 &1438675103
 GameObject:
   m_ObjectHideFlags: 0
@@ -3006,6 +2864,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1595878936147849590, guid: 847b18d0f0dc2e74dbfedc9633978569, type: 3}
   m_PrefabInstance: {fileID: 2326780396774603052}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6743124278018593914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 321072916, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: MaxInterval
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 321072916, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: MinInterval
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 321072916, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: ProgressController
+      value: 
+      objectReference: {fileID: 321072914}
+    - target: {fileID: 6743124278239001448, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: DialogueManager
+      value: 
+      objectReference: {fileID: 2029563141}
+    - target: {fileID: 6743124278239001451, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743124278239001451, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.7904768
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743124278239001451, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54603255
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743124278239001451, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.2314787
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743124278239001451, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743124278239001451, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743124278239001451, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743124278239001451, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743124278239001451, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743124278239001451, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743124278239001451, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743124278239001461, guid: 408a261542d897741a781991d2086d77, type: 3}
+      propertyPath: m_Name
+      value: MapGenerator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 408a261542d897741a781991d2086d77, type: 3}
 --- !u!1 &7202081884120473440
 GameObject:
   m_ObjectHideFlags: 0
