@@ -240,7 +240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &111733979
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -768,7 +768,7 @@ MonoBehaviour:
   actors:
   - name: Mirko Polo
     sprite: {fileID: 7176612008784037988, guid: 08a4ea944d8dd4ea1ada9363a03fc25c, type: 3}
-  - name: Kicia uwu
+  - name: Stupkomira
     sprite: {fileID: 21300000, guid: 2e09daec059a45a4182c04aefb0bb74d, type: 3}
 --- !u!1 &453751987
 GameObject:
@@ -1071,6 +1071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vignette
       objectReference: {fileID: 0}
+    - target: {fileID: 9179337681216768461, guid: 6896cc0f6e030fc4c9ef7c1ddc0f8e5f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9179337681216768466, guid: 6896cc0f6e030fc4c9ef7c1ddc0f8e5f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1329,7 +1333,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &769542665
 Transform:
   m_ObjectHideFlags: 0
@@ -1514,7 +1518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &935802879
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2386,7 +2390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1521627500
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2733,7 +2737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2992896217665416144, guid: ad13095e2210a4d1eae1e9c3f8604b29, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad13095e2210a4d1eae1e9c3f8604b29, type: 3}
@@ -2818,7 +2822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8648927831235197473, guid: 847b18d0f0dc2e74dbfedc9633978569, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 847b18d0f0dc2e74dbfedc9633978569, type: 3}
@@ -2835,7 +2839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2514070268885959571, guid: b2853c401008e5a4e82138220f22620d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2514070268885959581, guid: b2853c401008e5a4e82138220f22620d, type: 3}
       propertyPath: m_RootOrder
@@ -3065,7 +3069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7481442340179661787, guid: 5b310367907ab154f92f53f6726f8784, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b310367907ab154f92f53f6726f8784, type: 3}

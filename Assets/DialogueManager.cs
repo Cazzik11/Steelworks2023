@@ -21,8 +21,16 @@ public class DialogueManager : MonoBehaviour
 
     private void Awake()
     {
-        var go = new GameObject("Message Audio Source");
-        _audioSource = go.AddComponent<AudioSource>();
+        CreateSource();
+    }
+
+    private void CreateSource()
+    {
+        if (_audioSource == null)
+        {
+            var go = new GameObject("Message Audio Source");
+            _audioSource = go.AddComponent<AudioSource>();
+        }
     }
 
     public void OpenDialogue(Message[] messages, Actor[] actors) 
@@ -71,6 +79,8 @@ public class DialogueManager : MonoBehaviour
         {
             return;
         }
+
+        CreateSource();
 
         if (_audioSource.isPlaying)
         {

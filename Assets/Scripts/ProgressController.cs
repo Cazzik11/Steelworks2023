@@ -11,6 +11,10 @@ public class ProgressController : MonoBehaviour
     public int MinDistanceFromPlayer = 0;
 
     private int progress = 0;
+    private Vector2 progressObjectPosition;
+
+    public int Progress => progress;
+    public Vector2 ProgressObjectPosition => progressObjectPosition;
 
     private void OnEnable()
     {
@@ -52,6 +56,7 @@ public class ProgressController : MonoBehaviour
         var yOffset = UnityEngine.Random.Range(-MapGenerator.MapDimensions.y / 8, MapGenerator.MapDimensions.y / 8);
 
         var po = Instantiate(ProgressObjects[progress-1]);
-        po.transform.position = possibleSpawns[randomIndex] + xOffset * Vector2.right + yOffset * Vector2.up;
+        progressObjectPosition = possibleSpawns[randomIndex] + xOffset * Vector2.right + yOffset * Vector2.up;
+        po.transform.position = progressObjectPosition;
     }
 }
