@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class MultipleChoice : MonoBehaviour
 {
@@ -12,17 +13,17 @@ public class MultipleChoice : MonoBehaviour
     public int ChoiceMade;
 
     public void Choice0ption1 () {
-        TextBox.GetComponent<Text>().text = "ZOSTAŁEŚ OSZUKANY! PRZEKLĘTA STÓPKA OKAZAŁA SIĘ PRZEBIEGŁYM DEMONEM. GINIESZ MARNIE!";
+        TextBox.GetComponent<TMP_Text>().text = "ZOSTAŁEŚ OSZUKANY! PRZEKLĘTA STÓPKA OKAZAŁA SIĘ PRZEBIEGŁYM DEMONEM. GINIESZ MARNIE!";
         ChoiceMade = 1;
     }
 
     public void Choice0ption2 () {
-        TextBox.GetComponent<Text>().text = "RÓWNOWAGA MIĘDZY ŚWIATEM ASTRALNYM I MATERIALNYM ZOSTAŁA PRZYWRÓCONA. NIECH DZIADY (I STÓPKI) BĘDĄ Z TOBĄ!";
+        TextBox.GetComponent<TMP_Text>().text = "RÓWNOWAGA MIĘDZY ŚWIATEM ASTRALNYM I MATERIALNYM ZOSTAŁA PRZYWRÓCONA. NIECH DZIADY (I STÓPKI) BĘDĄ Z TOBĄ!";
         ChoiceMade = 2;
     }
 
     public void Choice0ption3 () {
-        TextBox.GetComponent<Text>().text = "DOPEŁNIŁEŚ NAJWYŻSZEGO STÓPKOWEGO PROROCTWA. WIWAT DLA ZBAWICIELA STÓPEK, POGROMCY DEMONÓW!";
+        TextBox.GetComponent<TMP_Text>().text = "DOPEŁNIŁEŚ NAJWYŻSZEGO STÓPKOWEGO PROROCTWA. WIWAT DLA ZBAWICIELA STÓPEK, POGROMCY DEMONÓW!";
         ChoiceMade = 3;
     }
 
