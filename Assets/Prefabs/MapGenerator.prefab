@@ -153,7 +153,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 1b6e7b443207cd941a2aa123d9e29438, type: 3}
   actors:
   - name: Mirko Polo
-    sprite: {fileID: -244444760, guid: 2dfd0bcb3da87c0419321ce38c1ffe9d, type: 3}
+    sprite: {fileID: 21300000, guid: 4f64fc3f95032f54bbfa449aa84e91be, type: 3}
   - name: "Przekl\u0119ta St\xF3pka"
     sprite: {fileID: 21300000, guid: 2e09daec059a45a4182c04aefb0bb74d, type: 3}
 --- !u!114 &321072916
