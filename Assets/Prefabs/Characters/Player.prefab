@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 6019100244204607942}
   - component: {fileID: 6210992495011364846}
   - component: {fileID: 4989989199220828090}
+  - component: {fileID: 1154784125}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: -244444760, guid: 2dfd0bcb3da87c0419321ce38c1ffe9d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -202,3 +203,23 @@ MonoBehaviour:
   HorizontalMovePropertyName: horizontal
   MovingPropertyName: moving
   InputController: {fileID: 6019100244204607942}
+--- !u!114 &1154784125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4888179459744551469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60501ee25de785042bd27a1db3ea76ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clips:
+  - {fileID: 8300000, guid: deae00ecf5e2eb440ba336ed1e830cf1, type: 3}
+  - {fileID: 8300000, guid: 84ec789ed5aeec24fbb8dadbdd1c60b2, type: 3}
+  - {fileID: 8300000, guid: 303a96347e1c58e44af8db9a7c614bd5, type: 3}
+  MinInterval: 0.32
+  MaxInterval: 0.32
+  InputController: {fileID: 6019100244204607942}
+  Volume: 0.3
