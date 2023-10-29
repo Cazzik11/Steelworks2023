@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 1769127633, guid: c15b74ec61be72242adce4bae3117b68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -134,7 +134,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 2.3125}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!95 &54797780624801946
 Animator:
@@ -185,36 +185,45 @@ MonoBehaviour:
   messages:
   - actorId: 0
     message: "Jam Vodnikov, demon wody! Nic co p\u0142ynie, nie jest mi obce!"
+    clip: {fileID: 0}
   - actorId: 1
     message: "Ale ja...chodz\u0119. I u\u017Cywam do tego st\xF3p! Gadaj co zrobi\u0142e\u015B
       z Przekl\u0119t\u0105 St\xF3pk\u0105!"
+    clip: {fileID: 0}
   - actorId: 0
     message: "S\u0142uchaj, nie latam za \u017Cadnymi upad\u0142ymi boginiami. Ona
       nie jest prawdziwym demonem! Nie chc\u0119 mie\u0107 z ni\u0105 nic wsp\xF3lnego!
       Mo\u017Ce jakby by\u0142a Syren\u0105...Ale nie jest, wi\u0119c nic mi do tego!"
+    clip: {fileID: 0}
   - actorId: 1
     message: "Vodnikovie, musisz mi pom\xF3c! Ty zrozumiesz moj\u0105 obsesj\u0119!
       Jeste\u015Bmy do siebie podobni, Przekl\u0119ta St\xF3pka jest dla mnie jak
       dla ciebie Syrena!"
+    clip: {fileID: 0}
   - actorId: 0
     message: "Zamilcz! Nie por\xF3wnuj Syreny do tej edgy baby! St\xF3pki Przekl\u0119tej
       zosta\u0142y uwi\u0119zione nie bez przyczyny...Wierz mi \u017Ce nie chcesz
       jej pozna\u0107."
+    clip: {fileID: 0}
   - actorId: 1
     message: "Ja musz\u0119 to zrobi\u0107! Zrobi\u0119 wszystko dla mojej Bogini!!!"
+    clip: {fileID: 0}
   - actorId: 0
     message: "Ch\u0142opie...A co ja b\u0119d\u0119 m\xF3wi\u0142. Twoja misja jest
       skazana na pora\u017Ck\u0119."
+    clip: {fileID: 0}
   - actorId: 1
     message: "To ja jestem Wybra\u0144cem Przekl\u0119tej St\xF3pki! Prosz\u0119,
       pom\xF3\u017C mi! U nas, w Zb\u0105szynku, widzia\u0142em kiedy\u015B syren\u0119.
       Mia\u0142a d\u0142ugie, p\u0142omiennie rude w\u0142osy, wielkie niebieskie
       oczy i z\u0142oty ogon z migocz\u0105cymi, czerwonymi i diamentowymi \u0142uskami.
       Znasz j\u0105?"
+    clip: {fileID: 0}
   - actorId: 0
     message: "NA BROD\u0118 CZARNOBOGA, TO TAM UCIEK\u0141A!!! \u017Begnaj! Szukaj
       demona Navjiyata, to on za tym wszytstkim stoi! To on pilnuje St\xF3pkowych
       Drzwi!"
+    clip: {fileID: 0}
   actors:
   - name: Vodnikov
     sprite: {fileID: 1769127633, guid: c15b74ec61be72242adce4bae3117b68, type: 3}

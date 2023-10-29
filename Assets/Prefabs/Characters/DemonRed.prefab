@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 668219254, guid: a1a17f7f327331d4b931c1f9cd58fbb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -134,7 +134,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 2.3125}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!95 &5931453692525144597
 Animator:
@@ -189,29 +189,38 @@ MonoBehaviour:
       tyle fetysz\xF3w na obu \u015Bwiatach a ty wybra\u0142e\u015B w\u0142a\u015Bnie
       ten... Mniejsza z tym, Przekl\u0119ta St\xF3pka to najwi\u0119ksza oszustka!
       Nie s\u0142uchaj jej!"
+    clip: {fileID: 0}
   - actorId: 1
     message: "Oszustka? To wy, niecne demony, odci\u0119li\u015Bcie jej stopy!"
+    clip: {fileID: 0}
   - actorId: 0
     message: "Jak \u015Bmiesz! Nigdy nie tkn\u0105\u0142bym si\u0119 st\xF3p! OBRZYDLIWE!"
+    clip: {fileID: 0}
   - actorId: 1
     message: "Od tego zale\u017Cy moje \u017Cycie, musisz mi pom\xF3c! Skoro to nie
       ty odci\u0105\u0142e\u015B stopy, kto\u015B musia\u0142 to zrobi\u0107!"
+    clip: {fileID: 0}
   - actorId: 0
     message: "Ale co mi do tego? Nie ufam Przekl\u0119tej St\xF3pce! Nie wiem co
       ci nagada\u0142a i nie chc\u0119 wiedzie\u0107. Mam kontakt z tylko jednym
       demonem, kt\xF3ry by\u0142by zainteresowany st\xF3pkami...chocia\u017C chyba
       bardziej p\u0142etwami..."
+    clip: {fileID: 0}
   - actorId: 1
     message: I to niby ja jestem ten nienormalny?!
+    clip: {fileID: 0}
   - actorId: 0
     message: "S\u0142uchaj, tam na dole jeste\u015Bcie po prostu nudni i obrzydliwi.
       My jeste\u015Bmy porz\u0105dnymi demonami z zasadami."
+    clip: {fileID: 0}
   - actorId: 1
     message: "Z fetyszem p\u0142etwost\xF3pek?!!"
+    clip: {fileID: 0}
   - actorId: 0
     message: "Ty to tak nazwa\u0142e\u015B! My po prostu doceniamy...pi\u0119kno.
       Denerwujesz mnie ju\u017C, id\u017A poszuka\u0107 Vodnikova! Znajdziesz go
       po zapachu...ryby."
+    clip: {fileID: 0}
   actors:
   - name: Koszmarik
     sprite: {fileID: 668219254, guid: a1a17f7f327331d4b931c1f9cd58fbb9, type: 3}

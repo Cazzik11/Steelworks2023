@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text actorName;
     public TMP_Text messageText;
     public RectTransform backgroundBox;
+    public Action OnDialogueEnded;
 
     Message[] currentMessages;
     Actor[] currentActors;
@@ -56,6 +58,7 @@ public class DialogueManager : MonoBehaviour
         } 
         else 
         {
+            OnDialogueEnded?.Invoke();
             Debug.Log("Conversation ended!");
             backgroundBox.LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
             isActive = false;
