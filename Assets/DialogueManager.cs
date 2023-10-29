@@ -15,7 +15,16 @@ public class DialogueManager : MonoBehaviour
     Actor[] currentActors;
     int activeMessage = 0;
     public static bool isActive = false;
-    public void OpenDialogue(Message[] messages, Actor[] actors) {
+    private AudioSource _audioSource;
+
+    private void Awake()
+    {
+        var go = new GameObject("Message Audio Source");
+        _audioSource = go.AddComponent<AudioSource>();
+    }
+
+    public void OpenDialogue(Message[] messages, Actor[] actors) 
+    {
         currentMessages = messages;
         currentActors = actors;
         activeMessage = 0;
@@ -24,7 +33,9 @@ public class DialogueManager : MonoBehaviour
         DisplayMessage();
         backgroundBox.LeanScale(Vector3.one, 0.5f);
     }
-    void DisplayMessage() {
+
+    private void DisplayMessage() 
+    {
         Message messageToDisplay = currentMessages[activeMessage];
         messageText.text = messageToDisplay.message;
 
@@ -33,19 +44,41 @@ public class DialogueManager : MonoBehaviour
         actorImage.sprite = actorToDisplay.sprite;
 
         AnimateTextColor();
+        PlayMessageSound(messageToDisplay);
     }
-    public void NextMessage() {
+
+    public void NextMessage()
+    {
         activeMessage++;
-        if (activeMessage < currentMessages.Length) {
+        if (activeMessage < currentMessages.Length) 
+        {
             DisplayMessage();
-        } else {
+        } 
+        else 
+        {
             Debug.Log("Conversation ended!");
             backgroundBox.LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
             isActive = false;
         }
     }
 
-    void AnimateTextColor() {
+    private void PlayMessageSound(Message message)
+    {
+        if (message.clip == null)
+        {
+            return;
+        }
+
+        if (_audioSource.isPlaying)
+        {
+            _audioSource.Stop();
+        }
+
+        _audioSource.PlayOneShot(message.clip);
+    }
+
+    private void AnimateTextColor() 
+    {
         LeanTween.textAlpha(messageText.rectTransform, 0, 0);
         LeanTween.textAlpha(messageText.rectTransform, 1, 0.5f);
     }
@@ -59,7 +92,8 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isActive == true) {
+        if (Input.GetKeyDown(KeyCode.Space) && isActive == true)
+        {
             NextMessage();
         }
     }

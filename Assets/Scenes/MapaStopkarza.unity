@@ -940,30 +940,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
-    - target: {fileID: 4888179459744551471, guid: 82d4cf1c75f87134e830b25b056e9e00, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888179459744551471, guid: 82d4cf1c75f87134e830b25b056e9e00, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888179459744551471, guid: 82d4cf1c75f87134e830b25b056e9e00, type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888179459744551472, guid: 82d4cf1c75f87134e830b25b056e9e00, type: 3}
-      propertyPath: m_BodyType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888179459744551472, guid: 82d4cf1c75f87134e830b25b056e9e00, type: 3}
-      propertyPath: m_Constraints
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888179459744551473, guid: 82d4cf1c75f87134e830b25b056e9e00, type: 3}
-      propertyPath: m_SortingOrder
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 4888179459744551474, guid: 82d4cf1c75f87134e830b25b056e9e00, type: 3}
       propertyPath: m_RootOrder
       value: 5
