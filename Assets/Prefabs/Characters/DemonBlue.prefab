@@ -235,7 +235,7 @@ MonoBehaviour:
   - name: Vodnikov
     sprite: {fileID: 21300000, guid: e3d84ecdb660b70448f842c443cb697b, type: 3}
   - name: Mirko Polo
-    sprite: {fileID: -244444760, guid: 2dfd0bcb3da87c0419321ce38c1ffe9d, type: 3}
+    sprite: {fileID: 21300000, guid: 4f64fc3f95032f54bbfa449aa84e91be, type: 3}
 --- !u!114 &5597061792491531578
 MonoBehaviour:
   m_ObjectHideFlags: 0
